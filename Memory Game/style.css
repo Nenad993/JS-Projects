@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+/* @font-face {
+    font-family: 'NBA Timberwolves';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NBA Timberwolves.ttf'), url('font/Timberwolves.ttf ') ;
+    } */
+    body {
+        transition: opacity .9s ease-in-out;
+        position: relative;
+        font-family: 'NBA Timberwolves';
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/pozadina 1.jpg');
+        background-position: 60% 10%;
+    
+    }
+
+/* body {
+    height: 100vh;
+}
+img {
+   width: 100px; 
+} */
+/* table {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+} */
+
+/* .back img {
+    display: inline-block;
+    vertical-align: middle;
+} */
+form {
+    text-align: center;
+    
+    /* padding-top: 5px; */
+}
+/* .leaderboard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    float: right;
+    margin: 5em;
+    font-size: 1.2em;
+}
+.leaderboard span {
+    padding: 0px 5px;
+} */
+/* #ime {
+    padding-top: 5px;
+}
+
+#radio {
+   padding-top: 5px;
+} */
+h3 {
+    color: white;
+    text-align:center;
+}
+.time1 {
+    text-align: center;
+    font-size: 1em;
+}
+.table {
+    width: 1000px;
+    height: 650px;
+    margin: auto;
+    margin-left: 0em;
+    margin-top: 10px;
+    display: grid;
+    /* background: grey; */
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 1em 0em;
+    perspective: 1000px;
+    
+}
+.table-width{
+    width: 90%;
+}
+.kartica {
+    width: calc(22% - 20px);
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    transform: scale(1);
+    overflow: visible;
+    transform-style: preserve-3d;
+    transition: transform .3s;
+    user-select: none;
+    display: none;
+}
+
+.pokaziKartu {
+    display: block;
+}
+.kartica:active {
+    transform: scale(.97);
+    transition: transform .2s;
+}
+.kartica.flip {
+    transform: rotateY(180deg);
+}
+.header img {
+    width: 150px;
+    padding-top: 40px;
+}
+.header p {
+    color: rgba(5, 5, 105, 0.836);
+    
+}
+.lice, .nalicje {
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+    position: absolute;
+    border-radius: 5%;
+    background-color: #fff;
+    backface-visibility: hidden;
+}
+
+.lice {
+   transform: rotateY(180deg);
+}
+
+

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NBA MEMORY GAME</title>
+</head>
+  <body>
+  <!-- <div class="main-content">
+      <div class="header">
+          <div class="info">
+              <h6 class="leaderboard">Leaderboards</h6>
+          </div> -->
+          <!-- <img src="images\NBA.png" alt="">
+          <p>Memory game</p>
+      </div> -->
+      <!-- <div class="start-game"> -->
+    <form>
+      <input type="text" id="ime">
+      
+      <div id="radio"> 
+        <input type="radio" name="tezina" id="lako" value="16"  checked><span style="color: #d4d8dd" > Rookie </span> 
+        <input type="radio" name="tezina" id="teze" value="36"><span style="color: #4b69ff"> Starter</span>
+        <input type="radio" name="tezina" id="poteze" value="64"><span style="color: #5500f1"> Pro</span>
+        <input type="radio" name="tezina" id="najteze" value="100"><span style="color: #e6d600"> Legend</span>
+      </div>
+      <div class="time1">
+        <span  style="color: #e6d600"   id="time">0</span>
+      </div>
+  
+    </form>
+    <!-- <div class="leaderboard">
+      <div class="rookie"><span style="color: #d4d8dd" > Rookie </span> </div>
+      <div class="starter"><span style="color: #4b69ff"> Starter</span></div>
+      <div class="pro"><span style="color: #5500f1"> Pro</span></div>
+      <div class="legend"><span style="color: #e6d600"> Legend</span></div>
+  </div> -->
+  
+    <!-- </div>
+</div> -->
+  
+
+  </div>
+    <div class="table">
+    <div class="kartica" value= "a">
+    <img class="lice" src="images\download.jpg" alt="">
+    <img class="nalicje" src="images\karta.jpg" alt="">
+    </div>
+
+    <div class="kartica" value= "a">
+      <img class="lice" src="images\download.jpg" alt="">
+      <img class="nalicje" src="images\karta.jpg" alt="">
+    </div>
+    <div class="kartica" value= "2">
+      <img class="lice" src="images\download (1).jpg" alt="">
+      <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+      
+    <div class="kartica" value= "2">
+      <img class="lice" src="images\download (1).jpg" alt="">
+      <img class="nalicje" src="images\karta.jpg" alt="">
+    </div>
+    <div class="kartica" value= "3">
+      <img class="lice" src="images\download (2).jpg" alt="">
+      <img class="nalicje" src="images\karta.jpg" alt="">
+    </div>
+  
+    <div class="kartica" value= "3">
+        <img class="lice" src="images\download (2).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+    </div>
+    <div class="kartica" value="4">
+        <img class="lice" src="images\download (3).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+    </div>
+        
+    <div class="kartica" value="4">
+        <img class="lice" src="images\download (3).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+    </div>
+    
+    <div class="kartica" value="5">
+      <img class="lice" src="images\download (4).jpg" alt="">
+      <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+  
+      <div class="kartica" value="5">
+        <img class="lice" src="images\download (4).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+      <div class="kartica" value="6">
+        <img class="lice" src="images\download (5).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+        
+      <div class="kartica" value="6">
+        <img class="lice" src="images\download (5).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+      <div class="kartica" value="7">
+        <img class="lice" src="images\download (6).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+    
+      <div class="kartica" value="7">
+          <img class="lice" src="images\download (6).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+      <div class="kartica" value="8">
+          <img class="lice" src="images\download (7).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+          
+      <div class="kartica" value="8">
+          <img class="lice" src="images\download (7).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+
+       <div class="kartica" value="9">
+        <img class="lice" src="images\download (8).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+    
+        <div class="kartica" value="9">
+          <img class="lice" src="images\download (8).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+        <div class="kartica" value="10">
+          <img class="lice" src="images\download (9).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+          
+        <div class="kartica" value="10">
+          <img class="lice" src="images\download (9).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+        <div class="kartica" value="11">
+          <img class="lice" src="images\download (10).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+      
+        <div class="kartica" value="11">
+            <img class="lice" src="images\download (10).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+        <div class="kartica" value="12">
+            <img class="lice" src="images\download (11).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+            
+        <div class="kartica" value="12">
+            <img class="lice" src="images\download (11).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+        
+        <div class="kartica" value="13">
+          <img class="lice" src="images\download (12).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+      
+          <div class="kartica" value="13">
+            <img class="lice" src="images\download (12).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+          <div class="kartica" value="14">
+            <img class="lice" src="images\download (13).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+            </div>
+            
+          <div class="kartica" value="14">
+            <img class="lice" src="images\download (13).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+          <div class="kartica" value="15">
+            <img class="lice" src="images\download (14).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+        
+        <div class="kartica" value="15">
+          <img class="lice" src="images\download (14).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+        <div class="kartica" value="16">
+            <img class="lice" src="images\images.jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+            
+        <div class="kartica" value="16">
+            <img class="lice" src="images\images.jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+        <div class="kartica" value="17">
+          <img class="lice" src="images\images (1).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+      
+          <div class="kartica" value="17">
+            <img class="lice" src="images\images (1).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+          <div class="kartica" value="18">
+              <img class="lice" src="images\images (2).jpg" alt="">
+              <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+              
+            <div class="kartica" value="18">
+              <img class="lice" src="images\images (2).jpg" alt="">
+              <img class="nalicje" src="images\karta.jpg" alt="">
+            </div>
+            <div class="kartica" value="19">
+              <img class="lice" src="images\images (3).jpg" alt="">
+              <img class="nalicje" src="images\karta.jpg" alt="">
+            </div>
+          
+            <div class="kartica" value="19">
+                <img class="lice" src="images\images (3).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+            </div>
+            <div class="kartica" value="20">
+                <img class="lice" src="images\images (4).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+            </div>
+                
+            <div class="kartica" value="20">
+                <img class="lice" src="images\images (4).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+            </div>
+            
+            <div class="kartica" value="21">
+              <img class="lice" src="images\images (5).jpg" alt="">
+              <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+          
+              <div class="kartica" value="21">
+                <img class="lice" src="images\images (5).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+              <div class="kartica" value="22">
+                <img class="lice" src="images\images (6).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+                
+              <div class="kartica" value="22">
+                <img class="lice" src="images\images (6).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+              <div class="kartica" value="23">
+                <img class="lice" src="images\images (7).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+            
+              <div class="kartica" value="23">
+                  <img class="lice" src="images\images (7).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+              <div class="kartica" value="24">
+                  <img class="lice" src="images\images (8).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+                  
+              <div class="kartica" value="24">
+                  <img class="lice" src="images\images (8).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+        
+              <div class="kartica" value="25">
+                <img class="lice" src="images\images (9).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+            
+                <div class="kartica" value="25">
+                  <img class="lice" src="images\images (9).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+                <div class="kartica" value="26">
+                  <img class="lice" src="images\images (10).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+                  </div>
+                  
+                <div class="kartica" value="26">
+                  <img class="lice" src="images\images (10).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+                <div class="kartica" value="27">
+                  <img class="lice" src="images\images (11).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+              
+                <div class="kartica" value="27">
+                    <img class="lice" src="images\images (11).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+                <div class="kartica" value="28">
+                    <img class="lice" src="images\images (12).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+                     
+                 <div class="kartica" value="28">
+                    <img class="lice" src="images\images (12).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+                
+                <div class="kartica" value="29">
+                  <img class="lice" src="images\images (13).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+                  </div>
+              
+                  <div class="kartica" value="29">
+                    <img class="lice" src="images\images (13).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                  </div>
+                  <div class="kartica" value="30">
+                    <img class="lice" src="images\images (14).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                    </div>
+                     
+                  <div class="kartica" value="30">
+                    <img class="lice" src="images\images (14).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                  </div>
+                  <div class="kartica" value="31">
+                    <img class="lice" src="images\images (15).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                  </div>
+                
+                  <div class="kartica" value="31">
+                    <img class="lice" src="images\images (15).jpg" alt="">
+                     <img class="nalicje" src="images\karta.jpg" alt="">
+                  </div>
+                  <div class="kartica" value="32">
+                      <img class="lice" src="images\images (16).jpg" alt="">
+                      <img class="nalicje" src="images\karta.jpg" alt="">
+                  </div>
+                       
+                  <div class="kartica" value="32">
+                      <img class="lice" src="images\images (16).jpg" alt="">
+                      <img class="nalicje" src="images\karta.jpg" alt="">
+                  </div>
+                  <div class="kartica" value="33">
+                    <img class="lice" src="images\images (17).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+                    
+                <div class="kartica" value="33">
+                    <img class="lice" src="images\images (17).jpg" alt="">
+                    <img class="nalicje" src="images\karta.jpg" alt="">
+                </div>
+                <div class="kartica" value="34">
+                  <img class="lice" src="images\images (18).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+                  
+              <div class="kartica" value="34">
+                  <img class="lice" src="images\images (18).jpg" alt="">
+                  <img class="nalicje" src="images\karta.jpg" alt="">
+              </div>
+              <div class="kartica" value="35">
+                <img class="lice" src="images\images (19).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+            </div>
+                
+            <div class="kartica" value="35">
+                <img class="lice" src="images\images (19).jpg" alt="">
+                <img class="nalicje" src="images\karta.jpg" alt="">
+            </div>
+            <div class="kartica" value="36">
+              <img class="lice" src="images\images (20).jpg" alt="">
+              <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+              
+          <div class="kartica" value="36">
+              <img class="lice" src="images\images (20).jpg" alt="">
+              <img class="nalicje" src="images\karta.jpg" alt="">
+          </div>
+          <div class="kartica" value="37">
+            <img class="lice" src="images\images (21).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+            
+        <div class="kartica" value="37">
+            <img class="lice" src="images\images (21).jpg" alt="">
+            <img class="nalicje" src="images\karta.jpg" alt="">
+        </div>
+        <div class="kartica" value="38">
+          <img class="lice" src="images\images (22).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+          
+      <div class="kartica" value="38">
+          <img class="lice" src="images\images (22).jpg" alt="">
+          <img class="nalicje" src="images\karta.jpg" alt="">
+      </div>
+        
+    <div class="kartica" value="39">
+        <img class="lice" src="images\images (23).jpg" alt="">
+        <img class="nalicje" src="images\karta.jpg" alt="">
+    </div>
+    <div class="kartica" value="39">
+      <img class="lice" src="images\images (23).jpg" alt="">
+      <img class="nalicje" src="images\karta.jpg" alt="">
+  </div>
+      
+  <div class="kartica" value="40">
+      <img class="lice" src="images\images (24).jpg" alt="">
+      <img class="nalicje" src="images\karta.jpg" alt="">
+  </div>
+  <div class="kartica" value="40">
+    <img class="lice" src="images\images (24).jpg" alt="">
+    <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+    
+<div class="kartica" value="41">
+    <img class="lice" src="images\images (25).jpg" alt="">
+    <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="41">
+  <img class="lice" src="images\images (25).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+  
+<div class="kartica" value="42">
+  <img class="lice" src="images\images (26).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="42">
+<img class="lice" src="images\images (26).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+
+<div class="kartica" value="43">
+<img class="lice" src="images\images (27).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="d43">
+  <img class="lice" src="images\images (27).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+  
+<div class="kartica" value="44">
+  <img class="lice" src="images\images (28).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="44">
+<img class="lice" src="images\images (28).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+
+<div class="kartica" value="45">
+<img class="lice" src="images\images (29).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="45">
+  <img class="lice" src="images\images (29).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+  
+<div class="kartica" value="46">
+  <img class="lice" src="images\images (30).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="46">
+<img class="lice" src="images\images (30).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="47">
+  <img class="lice" src="images\images (31).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="47">
+<img class="lice" src="images\images (31).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="48">
+  <img class="lice" src="images\images (32).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="48">
+<img class="lice" src="images\images (32).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="49">
+  <img class="lice" src="images\images (33).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="d49">
+<img class="lice" src="images\images (33).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="50">
+  <img class="lice" src="images\images (34).jpg" alt="">
+  <img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+<div class="kartica" value="50">
+<img class="lice" src="images\images (34).jpg" alt="">
+<img class="nalicje" src="images\karta.jpg" alt="">
+</div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
